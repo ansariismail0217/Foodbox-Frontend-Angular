@@ -1,0 +1,26 @@
+{
+  "signup": [
+    {
+      "name": "Abdullah Ansari",
+      "email": "abdullah@gmail.com",
+      "password": "abdullah@123",
+      "id": 1
+    }
+  ],
+  "posts": [
+    {
+      "favourite": false,
+      "star": 4.8,
+      "name": "Hyderabadi Biryani",
+      "price": 40,
+      "id": 1
+    },
+    {
+      "favourite": false,
+      "star": 4.4,
+      "name": "Moradabadi Biryani",
+      "price": 45,
+      "id": 2
+    }
+  ]
+}

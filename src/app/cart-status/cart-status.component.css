@@ -1,0 +1,30 @@
+
+
+.cart-area i {
+    font-size: 38px;
+    color: #ff3b3f;
+    padding: 2px;
+    margin-left: 15px;
+}
+
+.total {
+    background: #ff3b3f;
+    line-height: 43px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    float: left;
+    padding-left: 17px
+}
+
+.total span {
+    display: inline-block;
+    font-weight: 500;
+    background: #fff;
+    padding: 0 13px;
+    color: #000;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 11px
+}

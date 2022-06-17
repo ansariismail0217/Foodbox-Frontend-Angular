@@ -1,0 +1,12 @@
+.card{
+    margin-top: 15px;
+    border: 1px solid black;
+    padding: 1rem;
+    width: 550px;
+    left: 45%;
+    position: absolute;
+}
+h1{
+    padding: 2rem;
+    background-color: #f0ca84;
+}

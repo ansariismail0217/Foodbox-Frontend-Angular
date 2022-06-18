@@ -15,6 +15,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { CartStatusComponent } from './cart-status/cart-status.component';
 import { CartDetailsComponent } from './cart-details/cart-details.component';
 import { CheckoutComponent } from './checkout/checkout.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { CheckoutComponent } from './checkout/checkout.component';
     DashboardComponent,
     CartStatusComponent,
     CartDetailsComponent,
-    CheckoutComponent
+    CheckoutComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

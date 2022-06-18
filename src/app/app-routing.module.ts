@@ -13,9 +13,9 @@ const routes: Routes = [
   {path: 'checkout', component: CheckoutComponent},
   {path: 'cart-details', component: CartDetailsComponent},
   {path: 'home', component: HomeComponent},
-  {path: '', redirectTo: 'home', pathMatch: 'full'},
-  {path:'dash', component:DashboardComponent},
   {path: 'login', component: LoginComponent},
+  {path: '', redirectTo: 'login', pathMatch: 'full'},
+  {path:'dash', component:DashboardComponent},
   {path: 'signup', component: SignupComponent},
   {path: 'create-food', component:CreateFoodComponent},
   {path: 'update-food/:id', component:UpdateFoodComponent}

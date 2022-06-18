@@ -1,0 +1,75 @@
+header{
+    background-color: #e6e6e6;
+    padding: 0;
+    height: 5rem;
+    border-bottom: 1.3px solid #ff3b3f;
+    position: sticky;
+    width: 100%;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    margin: 0 ;
+    display: inline-block;
+}
+a.logo{
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color: #ff3b3f;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+}
+nav ul li a{
+    padding: 0.8rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+nav ul li a span{
+    padding: 0.8rem;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #78788c;
+}
+.cart-area.d-n {
+    justify-content: center;
+    font-size: 1rem;
+    margin-left: 15px;
+}
+.cart-area i {
+    font-size: 38px;
+    color: #ff3b3f;
+}
+.total {
+    background: #ff3b3f;
+    line-height: 43px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    float: left;
+    padding-left: 17px
+}
+.total span {
+    display: inline-block;
+    font-weight: 500;
+    background: #fff;
+    padding: 0 13px;
+    color: #000;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 11px
+}

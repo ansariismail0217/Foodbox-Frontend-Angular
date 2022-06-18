@@ -38,6 +38,7 @@ export class DashboardComponent implements OnInit {
     this.fs.deleteFood(id).subscribe(data=>{
       console.log(data);
       this.getFoods();
+      alert("Record deleted successfully");
     })
   }
 

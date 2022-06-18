@@ -1,10 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <ul class="navbar-nav"> 
         <li class="manage-cuisine">
-            Manage Cuisine
-        </li> &nbsp; &nbsp;
-        <li class="nav-item active">
-            <a routerLink="/create-food" routerLinkActive="active" class="nav-link" >Add Cuisine</a>
+            Welcome to Admin Page!
         </li>
     </ul>
 </nav>
@@ -12,6 +9,7 @@
 <div class="search">
     <input type="text" [(ngModel)]="keyword" name="keyword" (input)="getFoods()" class="search-input">
     <button (click)="getFoods()" class="search-button">Search</button>
+    <a routerLink="/create-food" routerLinkActive="active" ><button class="btn btn-success"> Add Cuisine</button></a>
 </div>
 
 <ul class="item-container">

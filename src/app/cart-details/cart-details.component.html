@@ -1,0 +1,39 @@
+<div class="main-content">
+    <div class="section-content section-content-p30">
+        <div class="box-table">
+            <table class="table table-bordered">
+                <tr>
+                    <th>Product Image</th>
+                    <th>Product Details</th>
+                    <th>Action</th>
+                </tr>
+                <tr *ngFor="let cartItem of cartItems">
+                    <td>
+                        <img src="/assets/images/foodicon.jpg" alt="Image crashed" class="img-responsive" width="100px">
+                    </td>
+                    <td>
+                        <p>{{cartItem.name}}</p>
+                        <p>{{cartItem.price | currency}}</p>
+                    </td>
+                    <td>
+                        <div class="items">
+                            <label>Quantity: </label>{{cartItem.quantity}}
+                        </div>
+                        <p class="mt-2">
+                            Subtotal: {{cartItem.quantity * cartItem.price | currency}}
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                    <td style="font-weight: bold;">
+                        <p>Total Quantity: {{totalQuantity}}</p>
+                        <p>Shipping: FREE</p>
+                        <p>Total Price: {{ totalPrice | currency }}</p>
+                        <a routerLink="/checkout"><button class="btn btn-primary">Checkout</button></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

@@ -13,6 +13,8 @@ import { UpdateFoodComponent } from './update-food/update-food.component';
 import { CreateFoodComponent } from './create-food/create-food.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CartStatusComponent } from './cart-status/cart-status.component';
+import { CartDetailsComponent } from './cart-details/cart-details.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { CartStatusComponent } from './cart-status/cart-status.component';
     UpdateFoodComponent,
     CreateFoodComponent,
     DashboardComponent,
-    CartStatusComponent
+    CartStatusComponent,
+    CartDetailsComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +35,8 @@ import { CartStatusComponent } from './cart-status/cart-status.component';
     RatingModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
